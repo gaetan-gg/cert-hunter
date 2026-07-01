@@ -7,6 +7,13 @@ cert-hunter builds a local, queryable index over Certificate Transparency logs (
 > Built as a companion PoC for Pass The Salt 2026 conference "Private Key Leaks in the Wild: from PTS to RWC, and back to PTS"
 > https://www.pass-the-salt.org/ 
 
+## Building
+
+Run:
+```
+go build ./cmd/cert-hunter
+```
+
 ## Usage
 
 Build an index from a CT log (HTTPS source, a ct-archive `.zip`, or a directory of `.zip` files):
